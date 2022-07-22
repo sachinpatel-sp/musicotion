@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activites.LanguageActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="5dp"
+        android:text="@string/language_select_head"
+        android:textColor="@color/heading"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chips_group"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="36dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:singleSelection="false">
+
+        <com.google.android.material.chip.Chip
+            style="@style/ChipCustomStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            app:chipBackgroundColor="@color/bg_chip_state_list"
+            android:text="Bhojpuri" />
+
+        <com.google.android.material.chip.Chip
+            style="@style/ChipCustomStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            app:chipBackgroundColor="@color/bg_chip_state_list"
+            android:text="English" />
+
+        <com.google.android.material.chip.Chip
+            style="@style/ChipCustomStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            app:chipBackgroundColor="@color/bg_chip_state_list"
+            android:text="Hindi" />
+
+        <com.google.android.material.chip.Chip
+            style="@style/ChipCustomStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            app:chipBackgroundColor="@color/bg_chip_state_list"
+            android:text="Punjabi" />
+
+        <com.google.android.material.chip.Chip
+            style="@style/ChipCustomStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            app:chipBackgroundColor="@color/bg_chip_state_list"
+            android:text="Tamil" />
+
+        <com.google.android.material.chip.Chip
+            style="@style/ChipCustomStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            app:chipBackgroundColor="@color/bg_chip_state_list"
+            android:text="Telugu" />
+
+        <com.google.android.material.chip.Chip
+            style="@style/ChipCustomStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            app:chipBackgroundColor="@color/bg_chip_state_list"
+            android:text="Marathi" />
+
+        <com.google.android.material.chip.Chip
+            style="@style/ChipCustomStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            app:chipBackgroundColor="@color/bg_chip_state_list"
+            android:text="Gujarati" />
+
+        <com.google.android.material.chip.Chip
+            style="@style/ChipCustomStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            app:chipBackgroundColor="@color/bg_chip_state_list"
+            android:text="Bengali" />
+
+        <com.google.android.material.chip.Chip
+            style="@style/ChipCustomStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            app:chipBackgroundColor="@color/bg_chip_state_list"
+            android:text="Kannada" />
+
+        <com.google.android.material.chip.Chip
+            style="@style/ChipCustomStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            app:chipBackgroundColor="@color/bg_chip_state_list"
+            android:text="Malayalam" />
+
+        <com.google.android.material.chip.Chip
+            style="@style/ChipCustomStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            app:chipBackgroundColor="@color/bg_chip_state_list"
+            android:text="Haryanvi" />
+
+        <com.google.android.material.chip.Chip
+            style="@style/ChipCustomStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            app:chipBackgroundColor="@color/bg_chip_state_list"
+            android:text="Rajasthani" />
+
+        <com.google.android.material.chip.Chip
+            style="@style/ChipCustomStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            app:chipBackgroundColor="@color/bg_chip_state_list"
+            android:text="Odia" />
+
+        <com.google.android.material.chip.Chip
+            style="@style/ChipCustomStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            app:chipBackgroundColor="@color/bg_chip_state_list"
+            android:text="Assamese" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <Button
+        android:id="@+id/done_btn"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:text="Done"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/red_A400"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

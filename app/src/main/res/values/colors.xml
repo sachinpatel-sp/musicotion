@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="grey">#8C8F96</color>
+    <color name="heading">#3E4152</color>
+    <color name="line">#D4D5DC</color>
+    <color name="activity_bg">#F2F3F7</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="deep_orange_A400">#FF3D00</color> <!-- LIGHT -->
+    <color name="red_A400">#ea3847</color>
+    <color name="red_A200">#CCEA3847</color>
+    <color name="seek_bar_background">#ababab</color>
+    <color name="seek_bar_progress">#ea3847</color>
+    <color name="seek_bar_secondary_progress">#F5A5AC</color>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activites.MainActivity"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/logo_tag"
+        app:layout_constraintBottom_toTopOf="@id/made_tag"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/made_tag"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal|center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="15sp"
+        android:textColor="@color/heading"
+        android:gravity="center_vertical|center_horizontal"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Made With " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="15sp"
+            android:drawableStart="@drawable/ic_love"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/heading"
+            android:gravity="center_vertical|center_horizontal"
+            android:text=" By Sachin" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

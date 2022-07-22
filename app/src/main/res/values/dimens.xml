@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="notification_large_dim">256dp</dimen>
+    <dimen name="album_height">128dp</dimen>
+    <dimen name="album_width">96dp</dimen>
+    <dimen name="parent_padding">16dp</dimen>
+    <dimen name="section_margin">10dp</dimen>
+    <dimen name="component_margin">14dp</dimen>
+    <dimen name="same_component_margin">20dp</dimen>
+    <dimen name="same_component_list_margin">4dp</dimen>
+    <dimen name="heading1">22sp</dimen>
+    <dimen name="heading2">18sp</dimen>
+    <dimen name="heading3">14sp</dimen>
+    <dimen name="heading4">12sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="seek_bar_thickness">4dp</dimen>
+    <dimen name="seek_bar_thumb_size">13dp</dimen>
+</resources>
